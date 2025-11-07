@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{3A43FE98-17E8-4CFF-B535-F2551D90A736}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{572EA9E7-4278-4894-9A61-A3A7F798AA9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F0CDDC5C-C830-4F95-B79D-C9887BB76B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yr25Mango.Services.CouponAPI", "Yr25Mango.Services.CouponAPI\Yr25Mango.Services.CouponAPI.csproj", "{64210222-7667-4A31-AE9C-1ACD197DA0B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D7769EBE-3908-48CA-ABD0-D44D4E70B2B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64210222-7667-4A31-AE9C-1ACD197DA0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64210222-7667-4A31-AE9C-1ACD197DA0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64210222-7667-4A31-AE9C-1ACD197DA0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64210222-7667-4A31-AE9C-1ACD197DA0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64210222-7667-4A31-AE9C-1ACD197DA0B5} = {F0CDDC5C-C830-4F95-B79D-C9887BB76B5F}
+		{D7769EBE-3908-48CA-ABD0-D44D4E70B2B6} = {F0CDDC5C-C830-4F95-B79D-C9887BB76B5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7154133-FD19-45FB-A6D1-85B1A523246C}
+	EndGlobalSection
+EndGlobal
