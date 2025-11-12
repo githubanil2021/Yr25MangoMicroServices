@@ -55,7 +55,7 @@ namespace Yr25Mango.Web.Service
 
         }
 
-        public async Task<ResponseDTO?> GetCouponByIdAsync(string id)
+        public async Task<ResponseDTO?> GetCouponByIdAsync(int id)
         {
             return await _baseService.SendAsync(new RequestDTO()
             {

@@ -5,7 +5,7 @@ namespace Yr25Mango.Web.Service.IService
     public interface ICouponService
     {
         Task<ResponseDTO?> GetCouponAsync(string couponCode);
-        Task<ResponseDTO?> GetCouponByIdAsync(string id);
+        Task<ResponseDTO?> GetCouponByIdAsync(int id);
         Task<ResponseDTO?> GetAllCouponsAsync();
         Task<ResponseDTO?> CreateCouponAsync(CouponDTO couponDTO);
         Task<ResponseDTO?> UpdateCouponsAsync(CouponDTO couponDTO);

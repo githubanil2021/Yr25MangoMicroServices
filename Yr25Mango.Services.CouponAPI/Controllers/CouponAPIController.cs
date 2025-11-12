@@ -8,7 +8,7 @@ using Yr25Mango.Services.CouponAPI.Models.DTO;
 
 namespace Yr25Mango.Services.CouponAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/coupon")]
     [ApiController]
     public class CouponAPIController : ControllerBase
     {
@@ -132,7 +132,7 @@ namespace Yr25Mango.Services.CouponAPI.Controllers
         }
 
 
-        [HttpDelete]
+        [HttpDelete("{id:int}")]
         public ResponseDTO Delete(int id)
         {
             try

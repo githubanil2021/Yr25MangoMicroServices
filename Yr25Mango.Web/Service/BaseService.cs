@@ -64,7 +64,7 @@ namespace Yr25Mango.Web.Service
                         var apiContent = await apiResponse.Content.ReadAsStringAsync();
                         var apiResponseDTO = JsonConvert.DeserializeObject<ResponseDTO>(apiContent);
                         return apiResponseDTO;
-                        break;
+                        
                 }
             }
             catch(Exception ex)
