@@ -1,0 +1,18 @@
+﻿@using Yr25Mango.Web.Models.DTO
+ @model LoginRequestDTO
+
+
+ <form method="post">
+     <div class="container">
+     <div>Login</div>
+     <div>
+         <div asp-validation-summary="All" ></div>
+         <div>
+             <input asp-for="UserName" placeholder="username"/>
+             <input asp-for="Password" placeholder="pass" />
+             <button type="submit">Login</button>
+       </div>
+     </div>
+    </div>
+
+ </form>

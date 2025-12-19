@@ -1,0 +1,26 @@
+﻿@using Yr25Mango.Web.Models.DTO
+@model RegistrationRequestDTO
+
+
+<form method="post">
+    <div class="container">
+        <div>Register</div>
+        <div>
+            <div asp-validation-summary="All"></div>
+            <div>
+                <input asp-for="Email" placeholder="email" />
+                
+                <input asp-for="Name" placeholder="Name" />
+                <input asp-for="PhoneNumber" placeholder="Phone" />
+                <input asp-for="Password" placeholder="Password" />
+
+                <select asp-for="Role" asp-items="@ViewBag.RoleList">
+                    <option disabled>--Select Role--</option>
+                   
+                </select>
+                <button type="submit">Register</button>
+            </div>
+        </div>
+    </div>
+
+</form>
